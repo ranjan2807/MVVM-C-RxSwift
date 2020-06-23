@@ -1,0 +1,31 @@
+//
+//  ODL.dev.xcconfig
+//  OverdraftLimit
+//
+//  Copyright © 2020 Ranjan-iOS. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+/// Stores Application version number
+ODL_APP_VER = 1.0
+/// Stores Application build number
+ODL_APP_BUILD = 0
+/// Stores Application Display Name
+ODL_APP_NAME = ODL Dev
+
+
+INITIAL_AMOUNT = 100
+
+OD_LIMIT = 1000
+
+OD_DANGER_LIMIT = 2000
+
+INTEREST_RATE = 8.9
+
+AMOUNT_DOMAIN_LOW = 0
+
+AMOUNT_DOMAIN_HIGH = 200
+
+ODL_CURRENCY = $

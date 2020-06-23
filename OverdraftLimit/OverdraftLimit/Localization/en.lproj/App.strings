@@ -1,0 +1,26 @@
+/* 
+  App.strings
+  OverdraftLimit
+
+  Copyright © 2020 Ranjan-iOS. All rights reserved.
+*/
+
+"OVERDRAFT" = "OVERDRAFT";
+
+"Overdraft alert" = "Overdraft alert";
+
+"Request increase" = "Request increase";
+
+"Interest incurred this quarter" = "Interest incurred this quarter";
+
+"Effective annual interest rate" = "Effective annual interest rate";
+
+"Selected Limit" = "Selected Limit";
+
+"Current Overdraft" = "Current Overdraft";
+
+
+// notification
+"Amount crossed first overdraft limit of 1000$" = "Amount crossed first overdraft limit of 1000$";
+
+"Amount crossed second overdraft limit of 2000$" = "Amount crossed second overdraft limit of 2000$";

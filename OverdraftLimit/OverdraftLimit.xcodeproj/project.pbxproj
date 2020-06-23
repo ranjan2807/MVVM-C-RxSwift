@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26464C622484B86C00661A7A /* Differentiator in Frameworks */ = {isa = PBXBuildFile; productRef = 26464C612484B86C00661A7A /* Differentiator */; };
+		26464C642484B86C00661A7A /* RxDataSources in Frameworks */ = {isa = PBXBuildFile; productRef = 26464C632484B86C00661A7A /* RxDataSources */; };
+		26464C6B2485223200661A7A /* RKPieChartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26464C682485223200661A7A /* RKPieChartItem.swift */; };
+		26464C6C2485223200661A7A /* RKPieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26464C692485223200661A7A /* RKPieChartView.swift */; };
+		26464C6D2485223200661A7A /* RKChartTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26464C6A2485223200661A7A /* RKChartTitleView.swift */; };
+		2676881924825BC800AFBD32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2676881824825BC800AFBD32 /* AppDelegate.swift */; };
+		2676881B24825BC800AFBD32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2676881A24825BC800AFBD32 /* SceneDelegate.swift */; };
+		2676882024825BC800AFBD32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2676881E24825BC800AFBD32 /* Main.storyboard */; };
+		2676882224825BCA00AFBD32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2676882124825BCA00AFBD32 /* Assets.xcassets */; };
+		2676882524825BCA00AFBD32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2676882324825BCA00AFBD32 /* LaunchScreen.storyboard */; };
+		2676883424825C5900AFBD32 /* OverdraftGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2676883324825C5900AFBD32 /* OverdraftGraphViewController.swift */; };
+		2676883624825C7800AFBD32 /* OverdraftGraphViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2676883524825C7800AFBD32 /* OverdraftGraphViewModel.swift */; };
+		2676883824825C9500AFBD32 /* OverdraftGraphCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2676883724825C9500AFBD32 /* OverdraftGraphCoordinator.swift */; };
+		2676883A24825CE400AFBD32 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2676883924825CE400AFBD32 /* AppCoordinator.swift */; };
+		2676883D24827C1300AFBD32 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 2676883C24827C1300AFBD32 /* Swinject */; };
+		267688442482B04F00AFBD32 /* OverdraftGraph.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267688432482B04F00AFBD32 /* OverdraftGraph.storyboard */; };
+		267688482482B0B400AFBD32 /* TabA.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267688462482B0B400AFBD32 /* TabA.storyboard */; };
+		2676884A2482B0C900AFBD32 /* TabB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267688492482B0C900AFBD32 /* TabB.storyboard */; };
+		2676884D2482B0DD00AFBD32 /* TabC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2676884B2482B0DD00AFBD32 /* TabC.storyboard */; };
+		2676884F2482B0EF00AFBD32 /* TabD.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2676884E2482B0EF00AFBD32 /* TabD.storyboard */; };
+		267688512482CB7800AFBD32 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267688502482CB7800AFBD32 /* Utils.swift */; };
+		267688532482CB8500AFBD32 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267688522482CB8500AFBD32 /* Constants.swift */; };
+		267688552482CBB500AFBD32 /* LocalNotificationClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267688542482CBB500AFBD32 /* LocalNotificationClient.swift */; };
+		267688572482CBD700AFBD32 /* AmountDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267688562482CBD700AFBD32 /* AmountDetail.swift */; };
+		267688592482CBF000AFBD32 /* AmountDetailViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267688582482CBF000AFBD32 /* AmountDetailViewData.swift */; };
+		267688632482DD4000AFBD32 /* App.strings in Resources */ = {isa = PBXBuildFile; fileRef = 267688652482DD4000AFBD32 /* App.strings */; };
+		267688682482DE1700AFBD32 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267688672482DE1700AFBD32 /* Localization.swift */; };
+		2676886B2482F16900AFBD32 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 2676886A2482F16900AFBD32 /* RxRelay */; };
+		2676886D2482F16900AFBD32 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2676886C2482F16900AFBD32 /* RxSwift */; };
+		2676886F2482F16900AFBD32 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 2676886E2482F16900AFBD32 /* RxCocoa */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26464C682485223200661A7A /* RKPieChartItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKPieChartItem.swift; sourceTree = "<group>"; };
+		26464C692485223200661A7A /* RKPieChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKPieChartView.swift; sourceTree = "<group>"; };
+		26464C6A2485223200661A7A /* RKChartTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKChartTitleView.swift; sourceTree = "<group>"; };
+		2676881524825BC800AFBD32 /* OverdraftLimit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OverdraftLimit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2676881824825BC800AFBD32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2676881A24825BC800AFBD32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2676881F24825BC800AFBD32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2676882124825BCA00AFBD32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2676882424825BCA00AFBD32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2676882624825BCA00AFBD32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2676883324825C5900AFBD32 /* OverdraftGraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverdraftGraphViewController.swift; sourceTree = "<group>"; };
+		2676883524825C7800AFBD32 /* OverdraftGraphViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverdraftGraphViewModel.swift; sourceTree = "<group>"; };
+		2676883724825C9500AFBD32 /* OverdraftGraphCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverdraftGraphCoordinator.swift; sourceTree = "<group>"; };
+		2676883924825CE400AFBD32 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		267688432482B04F00AFBD32 /* OverdraftGraph.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OverdraftGraph.storyboard; sourceTree = "<group>"; };
+		267688472482B0B400AFBD32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = OverdraftLimit/Resources/Base.lproj/TabA.storyboard; sourceTree = "<group>"; };
+		267688492482B0C900AFBD32 /* TabB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TabB.storyboard; sourceTree = "<group>"; };
+		2676884C2482B0DD00AFBD32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = OverdraftLimit/Resources/Base.lproj/TabC.storyboard; sourceTree = "<group>"; };
+		2676884E2482B0EF00AFBD32 /* TabD.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TabD.storyboard; sourceTree = "<group>"; };
+		267688502482CB7800AFBD32 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		267688522482CB8500AFBD32 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		267688542482CBB500AFBD32 /* LocalNotificationClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationClient.swift; sourceTree = "<group>"; };
+		267688562482CBD700AFBD32 /* AmountDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountDetail.swift; sourceTree = "<group>"; };
+		267688582482CBF000AFBD32 /* AmountDetailViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountDetailViewData.swift; sourceTree = "<group>"; };
+		2676885C2482D5E200AFBD32 /* ODL.dev.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ODL.dev.xcconfig; sourceTree = "<group>"; };
+		2676885D2482D5F600AFBD32 /* ODL.staging.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ODL.staging.xcconfig; sourceTree = "<group>"; };
+		2676885E2482D60800AFBD32 /* ODL.prod.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ODL.prod.xcconfig; sourceTree = "<group>"; };
+		267688642482DD4000AFBD32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/App.strings; sourceTree = "<group>"; };
+		267688662482DD6C00AFBD32 /* en-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-IN"; path = "en-IN.lproj/App.strings"; sourceTree = "<group>"; };
+		267688672482DE1700AFBD32 /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2676881224825BC800AFBD32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2676886D2482F16900AFBD32 /* RxSwift in Frameworks */,
+				26464C622484B86C00661A7A /* Differentiator in Frameworks */,
+				2676886B2482F16900AFBD32 /* RxRelay in Frameworks */,
+				26464C642484B86C00661A7A /* RxDataSources in Frameworks */,
+				2676886F2482F16900AFBD32 /* RxCocoa in Frameworks */,
+				2676883D24827C1300AFBD32 /* Swinject in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26464C652485220B00661A7A /* ThirdPartyLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				26464C662485222400661A7A /* RKPieChart */,
+			);
+			path = ThirdPartyLibrary;
+			sourceTree = "<group>";
+		};
+		26464C662485222400661A7A /* RKPieChart */ = {
+			isa = PBXGroup;
+			children = (
+				26464C672485223200661A7A /* Classes */,
+			);
+			path = RKPieChart;
+			sourceTree = "<group>";
+		};
+		26464C672485223200661A7A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				26464C682485223200661A7A /* RKPieChartItem.swift */,
+				26464C692485223200661A7A /* RKPieChartView.swift */,
+				26464C6A2485223200661A7A /* RKChartTitleView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2676880C24825BC800AFBD32 = {
+			isa = PBXGroup;
+			children = (
+				2676881724825BC800AFBD32 /* OverdraftLimit */,
+				2676881624825BC800AFBD32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2676881624825BC800AFBD32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2676881524825BC800AFBD32 /* OverdraftLimit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2676881724825BC800AFBD32 /* OverdraftLimit */ = {
+			isa = PBXGroup;
+			children = (
+				26464C652485220B00661A7A /* ThirdPartyLibrary */,
+				2676885A2482CC1000AFBD32 /* Environment */,
+				2676885B2482CC1D00AFBD32 /* Localization */,
+				2676882C24825BD500AFBD32 /* App */,
+				2676882D24825BDB00AFBD32 /* Resources */,
+				2676881824825BC800AFBD32 /* AppDelegate.swift */,
+				2676881A24825BC800AFBD32 /* SceneDelegate.swift */,
+				2676883924825CE400AFBD32 /* AppCoordinator.swift */,
+				2676882624825BCA00AFBD32 /* Info.plist */,
+			);
+			path = OverdraftLimit;
+			sourceTree = "<group>";
+		};
+		2676882C24825BD500AFBD32 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2676883124825C1000AFBD32 /* Utility */,
+				2676883024825C0600AFBD32 /* Services */,
+				2676882F24825BF600AFBD32 /* Scenes */,
+				2676882E24825BED00AFBD32 /* Models */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2676882D24825BDB00AFBD32 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				267688452482B05B00AFBD32 /* TabStoryboard */,
+				2676881E24825BC800AFBD32 /* Main.storyboard */,
+				2676882124825BCA00AFBD32 /* Assets.xcassets */,
+				2676882324825BCA00AFBD32 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2676882E24825BED00AFBD32 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				267688562482CBD700AFBD32 /* AmountDetail.swift */,
+				267688582482CBF000AFBD32 /* AmountDetailViewData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2676882F24825BF600AFBD32 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				2676883224825C1800AFBD32 /* OverdraftGraph */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		2676883024825C0600AFBD32 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				267688542482CBB500AFBD32 /* LocalNotificationClient.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2676883124825C1000AFBD32 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				267688502482CB7800AFBD32 /* Utils.swift */,
+				267688522482CB8500AFBD32 /* Constants.swift */,
+				267688672482DE1700AFBD32 /* Localization.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		2676883224825C1800AFBD32 /* OverdraftGraph */ = {
+			isa = PBXGroup;
+			children = (
+				2676883324825C5900AFBD32 /* OverdraftGraphViewController.swift */,
+				2676883524825C7800AFBD32 /* OverdraftGraphViewModel.swift */,
+				2676883724825C9500AFBD32 /* OverdraftGraphCoordinator.swift */,
+			);
+			path = OverdraftGraph;
+			sourceTree = "<group>";
+		};
+		267688452482B05B00AFBD32 /* TabStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				2676884E2482B0EF00AFBD32 /* TabD.storyboard */,
+				2676884B2482B0DD00AFBD32 /* TabC.storyboard */,
+				267688492482B0C900AFBD32 /* TabB.storyboard */,
+				267688462482B0B400AFBD32 /* TabA.storyboard */,
+				267688432482B04F00AFBD32 /* OverdraftGraph.storyboard */,
+			);
+			path = TabStoryboard;
+			sourceTree = "<group>";
+		};
+		2676885A2482CC1000AFBD32 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				2676885C2482D5E200AFBD32 /* ODL.dev.xcconfig */,
+				2676885D2482D5F600AFBD32 /* ODL.staging.xcconfig */,
+				2676885E2482D60800AFBD32 /* ODL.prod.xcconfig */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		2676885B2482CC1D00AFBD32 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				267688652482DD4000AFBD32 /* App.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2676881424825BC800AFBD32 /* OverdraftLimit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2676882924825BCA00AFBD32 /* Build configuration list for PBXNativeTarget "OverdraftLimit" */;
+			buildPhases = (
+				2676881124825BC800AFBD32 /* Sources */,
+				2676881224825BC800AFBD32 /* Frameworks */,
+				2676881324825BC800AFBD32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OverdraftLimit;
+			packageProductDependencies = (
+				2676883C24827C1300AFBD32 /* Swinject */,
+				2676886A2482F16900AFBD32 /* RxRelay */,
+				2676886C2482F16900AFBD32 /* RxSwift */,
+				2676886E2482F16900AFBD32 /* RxCocoa */,
+				26464C612484B86C00661A7A /* Differentiator */,
+				26464C632484B86C00661A7A /* RxDataSources */,
+			);
+			productName = OverdraftLimit;
+			productReference = 2676881524825BC800AFBD32 /* OverdraftLimit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2676880D24825BC800AFBD32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Ranjan-iOS";
+				TargetAttributes = {
+					2676881424825BC800AFBD32 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 2676881024825BC800AFBD32 /* Build configuration list for PBXProject "OverdraftLimit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"en-IN",
+			);
+			mainGroup = 2676880C24825BC800AFBD32;
+			packageReferences = (
+				2676883B24827C1300AFBD32 /* XCRemoteSwiftPackageReference "Swinject" */,
+				267688692482F16900AFBD32 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				26464C602484B86C00661A7A /* XCRemoteSwiftPackageReference "RxDataSources" */,
+			);
+			productRefGroup = 2676881624825BC800AFBD32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2676881424825BC800AFBD32 /* OverdraftLimit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2676881324825BC800AFBD32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2676882524825BCA00AFBD32 /* LaunchScreen.storyboard in Resources */,
+				2676884F2482B0EF00AFBD32 /* TabD.storyboard in Resources */,
+				2676884D2482B0DD00AFBD32 /* TabC.storyboard in Resources */,
+				2676882224825BCA00AFBD32 /* Assets.xcassets in Resources */,
+				267688482482B0B400AFBD32 /* TabA.storyboard in Resources */,
+				2676882024825BC800AFBD32 /* Main.storyboard in Resources */,
+				267688442482B04F00AFBD32 /* OverdraftGraph.storyboard in Resources */,
+				267688632482DD4000AFBD32 /* App.strings in Resources */,
+				2676884A2482B0C900AFBD32 /* TabB.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2676881124825BC800AFBD32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2676883A24825CE400AFBD32 /* AppCoordinator.swift in Sources */,
+				267688552482CBB500AFBD32 /* LocalNotificationClient.swift in Sources */,
+				267688682482DE1700AFBD32 /* Localization.swift in Sources */,
+				2676881924825BC800AFBD32 /* AppDelegate.swift in Sources */,
+				2676883824825C9500AFBD32 /* OverdraftGraphCoordinator.swift in Sources */,
+				26464C6B2485223200661A7A /* RKPieChartItem.swift in Sources */,
+				267688572482CBD700AFBD32 /* AmountDetail.swift in Sources */,
+				267688592482CBF000AFBD32 /* AmountDetailViewData.swift in Sources */,
+				267688512482CB7800AFBD32 /* Utils.swift in Sources */,
+				26464C6C2485223200661A7A /* RKPieChartView.swift in Sources */,
+				2676883424825C5900AFBD32 /* OverdraftGraphViewController.swift in Sources */,
+				2676881B24825BC800AFBD32 /* SceneDelegate.swift in Sources */,
+				2676883624825C7800AFBD32 /* OverdraftGraphViewModel.swift in Sources */,
+				26464C6D2485223200661A7A /* RKChartTitleView.swift in Sources */,
+				267688532482CB8500AFBD32 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2676881E24825BC800AFBD32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2676881F24825BC800AFBD32 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2676882324825BCA00AFBD32 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2676882424825BCA00AFBD32 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		267688462482B0B400AFBD32 /* TabA.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				267688472482B0B400AFBD32 /* Base */,
+			);
+			name = TabA.storyboard;
+			sourceTree = "<group>";
+		};
+		2676884B2482B0DD00AFBD32 /* TabC.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2676884C2482B0DD00AFBD32 /* Base */,
+			);
+			name = TabC.storyboard;
+			sourceTree = "<group>";
+		};
+		267688652482DD4000AFBD32 /* App.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				267688642482DD4000AFBD32 /* en */,
+				267688662482DD6C00AFBD32 /* en-IN */,
+			);
+			name = App.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2676882724825BCA00AFBD32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2676885C2482D5E200AFBD32 /* ODL.dev.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2676882824825BCA00AFBD32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2676885E2482D60800AFBD32 /* ODL.prod.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2676882A24825BCA00AFBD32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DMMP6D5MK9;
+				INFOPLIST_FILE = OverdraftLimit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ranjan.OverdraftLimit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2676882B24825BCA00AFBD32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DMMP6D5MK9;
+				INFOPLIST_FILE = OverdraftLimit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ranjan.OverdraftLimit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2676885F2482D61100AFBD32 /* staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2676885D2482D5F600AFBD32 /* ODL.staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = staging;
+		};
+		267688602482D61100AFBD32 /* staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DMMP6D5MK9;
+				INFOPLIST_FILE = OverdraftLimit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ranjan.OverdraftLimit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = staging;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2676881024825BC800AFBD32 /* Build configuration list for PBXProject "OverdraftLimit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2676882724825BCA00AFBD32 /* Debug */,
+				2676882824825BCA00AFBD32 /* Release */,
+				2676885F2482D61100AFBD32 /* staging */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2676882924825BCA00AFBD32 /* Build configuration list for PBXNativeTarget "OverdraftLimit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2676882A24825BCA00AFBD32 /* Debug */,
+				2676882B24825BCA00AFBD32 /* Release */,
+				267688602482D61100AFBD32 /* staging */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		26464C602484B86C00661A7A /* XCRemoteSwiftPackageReference "RxDataSources" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RxSwiftCommunity/RxDataSources.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.1;
+			};
+		};
+		2676883B24827C1300AFBD32 /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.1;
+			};
+		};
+		267688692482F16900AFBD32 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		26464C612484B86C00661A7A /* Differentiator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 26464C602484B86C00661A7A /* XCRemoteSwiftPackageReference "RxDataSources" */;
+			productName = Differentiator;
+		};
+		26464C632484B86C00661A7A /* RxDataSources */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 26464C602484B86C00661A7A /* XCRemoteSwiftPackageReference "RxDataSources" */;
+			productName = RxDataSources;
+		};
+		2676883C24827C1300AFBD32 /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2676883B24827C1300AFBD32 /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+		2676886A2482F16900AFBD32 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 267688692482F16900AFBD32 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		2676886C2482F16900AFBD32 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 267688692482F16900AFBD32 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		2676886E2482F16900AFBD32 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 267688692482F16900AFBD32 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2676880D24825BC800AFBD32 /* Project object */;
+}

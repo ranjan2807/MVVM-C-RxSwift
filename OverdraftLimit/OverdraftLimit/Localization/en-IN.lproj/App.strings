@@ -1,0 +1,21 @@
+/* 
+  App.strings
+  OverdraftLimit
+ 
+  Copyright © 2020 Ranjan-iOS. All rights reserved.
+*/
+
+
+"OVERDRAFT" = "OVERDRAFT";
+
+"Overdraft alert" = "Overdraft alert";
+
+"Request increase" = "Request increase";
+
+"Interest incurred this quarter" = "Interest incurred this quarter";
+
+"Effective annual interest rate" = "Effective annual interest rate";
+
+"Selected Limit" = "Selected Limit";
+
+"Current Overdraft" = "Current Overdraft";
